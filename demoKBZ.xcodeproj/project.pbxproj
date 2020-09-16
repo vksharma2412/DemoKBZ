@@ -3,10 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D8A7BFC6BFF7C263464F882 /* Pods_demoKBZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5118EC27968B8B28AEA42E52 /* Pods_demoKBZ.framework */; };
+		D421E114242223C800B39347 /* ProductTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421E113242223C800B39347 /* ProductTableView.swift */; };
+		D421E1162422240800B39347 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421E1152422240800B39347 /* ProductTableViewCell.swift */; };
+		D421E1182422246500B39347 /* ProductCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421E1172422246500B39347 /* ProductCollectionView.swift */; };
+		D421E11A2422255900B39347 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421E1192422255900B39347 /* ProductCollectionViewCell.swift */; };
+		FB10D0C22418C477000EF6EC /* OtpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D0C12418C477000EF6EC /* OtpScreenViewController.swift */; };
+		FB10D0C72419303E000EF6EC /* ResuableFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB10D0C62419303E000EF6EC /* ResuableFunctions.swift */; };
+		FB10D0C924193425000EF6EC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB10D0C824193425000EF6EC /* GoogleService-Info.plist */; };
+		FB3ABFBB241BC532008897F1 /* sliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3ABFBA241BC532008897F1 /* sliderCollectionViewCell.swift */; };
+		FB563E5B241F5B3F009F4771 /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB563E5A241F5B3F009F4771 /* menuTableViewCell.swift */; };
+		FB5DCC1E241A4BB000EBAE2A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DCC1D241A4BB000EBAE2A /* HomeViewController.swift */; };
+		FB5DCC20241A4BC300EBAE2A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DCC1F241A4BC300EBAE2A /* CategoryViewController.swift */; };
+		FB5DCC22241A4BE300EBAE2A /* MyCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DCC21241A4BE300EBAE2A /* MyCartViewController.swift */; };
+		FB5DCC24241A4C0700EBAE2A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DCC23241A4C0700EBAE2A /* MenuViewController.swift */; };
+		FB5DCC26241A503E00EBAE2A /* KbzBottomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DCC25241A503E00EBAE2A /* KbzBottomTabBarController.swift */; };
+		FB5DCC28241A565300EBAE2A /* cutomNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5DCC27241A565300EBAE2A /* cutomNavigationBar.xib */; };
+		FB5DCC2A241A56CD00EBAE2A /* cutomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5DCC29241A56CD00EBAE2A /* cutomNavigationBar.swift */; };
 		FBC33FBE240F9E1400BBEAF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC33FBD240F9E1400BBEAF6 /* AppDelegate.swift */; };
 		FBC33FC0240F9E1400BBEAF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC33FBF240F9E1400BBEAF6 /* ViewController.swift */; };
 		FBC33FC3240F9E1400BBEAF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC33FC1240F9E1400BBEAF6 /* Main.storyboard */; };
@@ -16,6 +33,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		382BDF9C2B53F9140C2B693C /* Pods-demoKBZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoKBZ.debug.xcconfig"; path = "Target Support Files/Pods-demoKBZ/Pods-demoKBZ.debug.xcconfig"; sourceTree = "<group>"; };
+		5118EC27968B8B28AEA42E52 /* Pods_demoKBZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demoKBZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D421E113242223C800B39347 /* ProductTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableView.swift; sourceTree = "<group>"; };
+		D421E1152422240800B39347 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		D421E1172422246500B39347 /* ProductCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionView.swift; sourceTree = "<group>"; };
+		D421E1192422255900B39347 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		E79D3042C6132C197EF00B73 /* Pods-demoKBZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demoKBZ.release.xcconfig"; path = "Target Support Files/Pods-demoKBZ/Pods-demoKBZ.release.xcconfig"; sourceTree = "<group>"; };
+		FB10D0C12418C477000EF6EC /* OtpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpScreenViewController.swift; sourceTree = "<group>"; };
+		FB10D0C62419303E000EF6EC /* ResuableFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResuableFunctions.swift; sourceTree = "<group>"; };
+		FB10D0C824193425000EF6EC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB3ABFBA241BC532008897F1 /* sliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = sliderCollectionViewCell.swift; path = Home/sliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB563E5A241F5B3F009F4771 /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = menuTableViewCell.swift; path = Menu/menuTableViewCell.swift; sourceTree = "<group>"; };
+		FB5DCC1D241A4BB000EBAE2A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Home/HomeViewController.swift; sourceTree = "<group>"; };
+		FB5DCC1F241A4BC300EBAE2A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Category/CategoryViewController.swift; sourceTree = "<group>"; };
+		FB5DCC21241A4BE300EBAE2A /* MyCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyCartViewController.swift; path = MyCart/MyCartViewController.swift; sourceTree = "<group>"; };
+		FB5DCC23241A4C0700EBAE2A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Menu/MenuViewController.swift; sourceTree = "<group>"; };
+		FB5DCC25241A503E00EBAE2A /* KbzBottomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KbzBottomTabBarController.swift; path = BottomTabNavigation/KbzBottomTabBarController.swift; sourceTree = "<group>"; };
+		FB5DCC27241A565300EBAE2A /* cutomNavigationBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = cutomNavigationBar.xib; path = CustomNavigationBar/cutomNavigationBar.xib; sourceTree = "<group>"; };
+		FB5DCC29241A56CD00EBAE2A /* cutomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = cutomNavigationBar.swift; path = CustomNavigationBar/cutomNavigationBar.swift; sourceTree = "<group>"; };
 		FBC33FBA240F9E1400BBEAF6 /* demoKBZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoKBZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC33FBD240F9E1400BBEAF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC33FBF240F9E1400BBEAF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +67,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D8A7BFC6BFF7C263464F882 /* Pods_demoKBZ.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E8A4F3D3127A5C68C227BD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5118EC27968B8B28AEA42E52 /* Pods_demoKBZ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		483B1368CF44A44588EA1410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				382BDF9C2B53F9140C2B693C /* Pods-demoKBZ.debug.xcconfig */,
+				E79D3042C6132C197EF00B73 /* Pods-demoKBZ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB10D0C324192FDA000EF6EC /* Resuable */ = {
+			isa = PBXGroup;
+			children = (
+				FB10D0C62419303E000EF6EC /* ResuableFunctions.swift */,
+			);
+			path = Resuable;
+			sourceTree = "<group>";
+		};
 		FBC33FB1240F9E1400BBEAF6 = {
 			isa = PBXGroup;
 			children = (
 				FBC33FBC240F9E1400BBEAF6 /* demoKBZ */,
 				FBC33FBB240F9E1400BBEAF6 /* Products */,
+				483B1368CF44A44588EA1410 /* Pods */,
+				3E8A4F3D3127A5C68C227BD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +120,29 @@
 		FBC33FBC240F9E1400BBEAF6 /* demoKBZ */ = {
 			isa = PBXGroup;
 			children = (
-				FBC33FBD240F9E1400BBEAF6 /* AppDelegate.swift */,
+				FB10D0C324192FDA000EF6EC /* Resuable */,
+				FBC33FC7240F9E1600BBEAF6 /* Assets.xcassets */,
 				FBC33FBF240F9E1400BBEAF6 /* ViewController.swift */,
 				FBC33FC1240F9E1400BBEAF6 /* Main.storyboard */,
-				FBC33FC7240F9E1600BBEAF6 /* Assets.xcassets */,
-				FBC33FC9240F9E1600BBEAF6 /* LaunchScreen.storyboard */,
-				FBC33FCC240F9E1600BBEAF6 /* Info.plist */,
+				FBC33FBD240F9E1400BBEAF6 /* AppDelegate.swift */,
 				FBC33FC4240F9E1400BBEAF6 /* demoKBZ.xcdatamodeld */,
+				FBC33FC9240F9E1600BBEAF6 /* LaunchScreen.storyboard */,
+				FB10D0C824193425000EF6EC /* GoogleService-Info.plist */,
+				FBC33FCC240F9E1600BBEAF6 /* Info.plist */,
+				FB5DCC25241A503E00EBAE2A /* KbzBottomTabBarController.swift */,
+				FB5DCC23241A4C0700EBAE2A /* MenuViewController.swift */,
+				FB563E5A241F5B3F009F4771 /* menuTableViewCell.swift */,
+				FB5DCC27241A565300EBAE2A /* cutomNavigationBar.xib */,
+				FB5DCC29241A56CD00EBAE2A /* cutomNavigationBar.swift */,
+				FB5DCC21241A4BE300EBAE2A /* MyCartViewController.swift */,
+				FB10D0C12418C477000EF6EC /* OtpScreenViewController.swift */,
+				FB5DCC1F241A4BC300EBAE2A /* CategoryViewController.swift */,
+				D421E1192422255900B39347 /* ProductCollectionViewCell.swift */,
+				D421E1172422246500B39347 /* ProductCollectionView.swift */,
+				FB3ABFBA241BC532008897F1 /* sliderCollectionViewCell.swift */,
+				FB5DCC1D241A4BB000EBAE2A /* HomeViewController.swift */,
+				D421E1152422240800B39347 /* ProductTableViewCell.swift */,
+				D421E113242223C800B39347 /* ProductTableView.swift */,
 			);
 			path = demoKBZ;
 			sourceTree = "<group>";
@@ -74,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBC33FCF240F9E1600BBEAF6 /* Build configuration list for PBXNativeTarget "demoKBZ" */;
 			buildPhases = (
+				CB63820EEEBEE93637837674 /* [CP] Check Pods Manifest.lock */,
 				FBC33FB6240F9E1400BBEAF6 /* Sources */,
 				FBC33FB7240F9E1400BBEAF6 /* Frameworks */,
 				FBC33FB8240F9E1400BBEAF6 /* Resources */,
+				A61A16C9C6F0DC6D170A19B9 /* [CP] Embed Pods Frameworks */,
+				FB10D0CA24193594000EF6EC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,21 +209,98 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC33FCB240F9E1600BBEAF6 /* LaunchScreen.storyboard in Resources */,
+				FB10D0C924193425000EF6EC /* GoogleService-Info.plist in Resources */,
 				FBC33FC8240F9E1600BBEAF6 /* Assets.xcassets in Resources */,
+				FB5DCC28241A565300EBAE2A /* cutomNavigationBar.xib in Resources */,
 				FBC33FC3240F9E1400BBEAF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A61A16C9C6F0DC6D170A19B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demoKBZ/Pods-demoKBZ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demoKBZ/Pods-demoKBZ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demoKBZ/Pods-demoKBZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB63820EEEBEE93637837674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demoKBZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB10D0CA24193594000EF6EC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBC33FB6240F9E1400BBEAF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB10D0C72419303E000EF6EC /* ResuableFunctions.swift in Sources */,
+				FB5DCC24241A4C0700EBAE2A /* MenuViewController.swift in Sources */,
+				D421E1162422240800B39347 /* ProductTableViewCell.swift in Sources */,
+				FB5DCC2A241A56CD00EBAE2A /* cutomNavigationBar.swift in Sources */,
+				FB5DCC26241A503E00EBAE2A /* KbzBottomTabBarController.swift in Sources */,
+				FB5DCC22241A4BE300EBAE2A /* MyCartViewController.swift in Sources */,
 				FBC33FC0240F9E1400BBEAF6 /* ViewController.swift in Sources */,
 				FBC33FC6240F9E1400BBEAF6 /* demoKBZ.xcdatamodeld in Sources */,
+				FB5DCC20241A4BC300EBAE2A /* CategoryViewController.swift in Sources */,
+				FB10D0C22418C477000EF6EC /* OtpScreenViewController.swift in Sources */,
+				D421E114242223C800B39347 /* ProductTableView.swift in Sources */,
+				FB5DCC1E241A4BB000EBAE2A /* HomeViewController.swift in Sources */,
 				FBC33FBE240F9E1400BBEAF6 /* AppDelegate.swift in Sources */,
+				FB563E5B241F5B3F009F4771 /* menuTableViewCell.swift in Sources */,
+				D421E1182422246500B39347 /* ProductCollectionView.swift in Sources */,
+				D421E11A2422255900B39347 /* ProductCollectionViewCell.swift in Sources */,
+				FB3ABFBB241BC532008897F1 /* sliderCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,9 +444,11 @@
 		};
 		FBC33FD0240F9E1600BBEAF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382BDF9C2B53F9140C2B693C /* Pods-demoKBZ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				INFOPLIST_FILE = demoKBZ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +463,7 @@
 		};
 		FBC33FD1240F9E1600BBEAF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79D3042C6132C197EF00B73 /* Pods-demoKBZ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
