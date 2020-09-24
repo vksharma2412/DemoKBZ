@@ -1,0 +1,9 @@
+{
+    "Simulator Target Bundle": "com.loggerDemo.EventLogger",
+    "aps": {
+        "alert": "Push Notifications Test",
+        "sound": "default",
+        "content-available" : 1,
+        "badge": 1
+    }
+}
